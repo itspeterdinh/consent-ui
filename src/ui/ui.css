@@ -1,0 +1,17 @@
+.ConsentManager {
+  width: fit-content;
+  height: fit-content;
+  background: white;
+  overflow: scroll;
+  position: absolute;
+  z-index: 1000000;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.ConsentManager::-webkit-scrollbar {
+  display: none;
+}

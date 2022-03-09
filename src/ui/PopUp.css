@@ -1,0 +1,37 @@
+.pop-up {
+  background: white;
+  position: absolute;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: 14px;
+  margin-right: 45px;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  z-index: 1;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.head {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  min-height: 60px;
+}
+
+.detail {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(49, 48, 48);
+}

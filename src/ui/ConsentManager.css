@@ -1,0 +1,58 @@
+.background {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.consent-manager {
+  background-color: white;
+  padding: 3em 5em 3em 5em;
+  height: fit-content;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.logo-container {
+  background-color: white;
+  height: fit-content;
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.transcend-logo {
+  content: url(https://live.staticflickr.com/65535/51917676602_52b81bb587_m.jpg);
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.test {
+  background-color: gray;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+}

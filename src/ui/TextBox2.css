@@ -1,0 +1,25 @@
+.text {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  white-space: pre-wrap;
+  font-family: 'Roboto';
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 0.7rem;
+  text-indent: 35px;
+}
+
+li {
+  text-indent: 35px;
+}
+
+strong {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.text {
+  background-color: white;
+  height: fit-content;
+  width: 100%;
+  white-space: pre-wrap;
+  font-family: 'Roboto';
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: medium 500;
+  font-family: inherit;
+}
+
+p {
+  margin-top: 3px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: inherit;
+  /* color: #808080; */
+}
