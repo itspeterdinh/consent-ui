@@ -21,11 +21,6 @@ Let's build the following features:
   - `transcend.showConsentManager()` shouldn't re-create new DOM on every invocation.
   - Add 'accept all' / 'deny all' buttons (`airgap.optIn()` / `airgap.optOut()`)
 
-Bonus Challenges
-- 1. Solution doesn't request other external resources
-- 2. Consent manager UI correctly displays when `transcend.showConsentManager()` is enqueued prior to your UI script loading.
-- 3. Maintains reliability in the face of a third party script interfering with the consent manager DOM tree. This exposes the consent manager to the real-world scenario of the DOM being cleared in an SPA app.
-
 We will evaluate your solution using the following rubric:
 | Criteria      | Below Expectations | Meets Expectation | Exceeds Expectations |
 | -----------   | ----------- | ----------- | ----------- |
